@@ -1,0 +1,88 @@
+html{
+    margin: 0;
+    padding:0;
+    background-color: #EFEBE6;
+    scroll-behavior: smooth;
+}
+#pagetitle{
+    padding: 0;
+    color: white;
+    margin: 1% 20%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+#pagetitle span{
+    padding: 0.5% 1%;
+    background-color: black;
+}
+#carriedbrands{
+    margin: 0 20% 2% 20%;
+}
+#carriedbrands span{
+    color: #800000;
+}
+.content{
+    width: 100%;
+}
+main{
+    margin: 0 20%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    
+}
+.bike{
+    background-color: #ffffff;
+    padding: 5%;
+    line-height: 0.8em;
+    padding-bottom: 15%
+}
+.bike-image{
+    width: 100%
+}
+.brand{
+    margin-bottom: 0;
+    
+    text-transform: uppercase
+}
+.model{
+    margin:0.2em;
+    border-bottom: 1px solid lightgray;
+}
+.specs{
+    margin: 5% 10%;
+}
+.specs p{
+    border-bottom: 1px solid lightgray;
+    font-style: italic;
+    color: #808080;
+}
+.specs span{
+    font-style: normal;
+    color: #000000
+}
+.colours-image{
+    width: 50%;
+    
+    cursor:pointer;
+}
+button{
+    width: 66%;
+    border: 1px solid #800000;
+    background-color: #ffffff;
+    color: #800000;
+    padding: 2% 5%;
+    margin: 0 17%;
+    font-family: 'Barlow Condensed', sans-serif;
+    cursor:pointer;
+}
+@media (min-width: 600px) {
+  main { 
+      margin: 0 20%;
+      grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1200px) {
+  main { 
+      margin: 0 20%;
+      grid-template-columns: repeat(3, 1fr); }
+}
